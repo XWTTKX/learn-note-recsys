@@ -1,0 +1,22 @@
+{
+  "learn-nanobot": {
+    "repository": "bcefghj/learn-nanobot",
+    "commit": "740d041a52e1d50499aabc70ec5bd6ae592737d0"
+  },
+  "Qilin": {
+    "repository": "RED-Search/Qilin",
+    "commit": "299c02667e1dc98dd8e62aa5e13a8e04a9d0363b"
+  },
+  "Rednote-Qilin": {
+    "repository": "WBoxian/Rednote-Qilin-Search-Rec-System",
+    "commit": "763764e8ab99410098439e2f57158227a7ce18f2"
+  },
+  "fun-rec": {
+    "repository": "datawhalechina/fun-rec",
+    "commit": "5f7bd84d4403b5f92b6bedbd31e3984ef00a4572"
+  },
+  "DeepCTR-Torch": {
+    "repository": "shenweichen/DeepCTR-Torch",
+    "commit": "9eccef78e5810c61d6a04ddc7d96279e3db9c970"
+  }
+}
