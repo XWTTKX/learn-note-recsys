@@ -2,6 +2,8 @@
 
 **面向大厂搜广推算法面试：公开Qilin数据、召回排序、评测协议与项目表达。**
 
+**第一次读，先做 [图解案例：为什么同一个推荐模型能从 0.00004 变成 0.589](docs/worked-example/README.md)。** 从一条小请求开始手算，然后对照 Qilin toy 实测，把候选覆盖、评测协议与排序问题区分开。
+
 建议先跑轻量基线，再读[请求级源码](docs/04-source-walkthrough/README.md)和[ItemCF 手算](docs/07-recall/README.md)。用 `python3 scripts/coverage_lab.py` 区分候选缺失和排名问题；[评测章](docs/11-evaluation/README.md)结合 Qilin toy 实测，解释为什么「给定日志候选」和「全训练目录」的 Recall 相差很大。
 
 沿用 [learn-nanobot](https://github.com/bcefghj/learn-nanobot) 的分章节学习形式，内容围绕笔记推荐重新编写。主线是 [Qilin官方数据与baseline](https://github.com/RED-Search/Qilin)，工程阅读参考 [Rednote-Qilin-Search-Rec-System](https://github.com/WBoxian/Rednote-Qilin-Search-Rec-System)。
